@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Serene Coffees — Premium Coffee. Pure Serenity.</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=Dancing+Script:wght@600;700&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ========== NAV ========== -->
+  <nav class="nav" id="nav">
+    <div class="nav__inner container">
+      <a href="#hero" class="nav__logo">
+        <svg class="nav__logo-icon" viewBox="0 0 40 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M20 4 C12 8 8 16 10 24 C6 26 4 30 6 34 C8 38 14 40 20 38 C26 40 32 38 34 34 C36 30 34 26 30 24 C32 16 28 8 20 4Z" fill="#5C3317"/>
+          <ellipse cx="20" cy="44" rx="12" ry="4" fill="#5C3317" opacity="0.4"/>
+        </svg>
+        <span class="nav__logo-text">SERENE COFFEES</span>
+      </a>
+      <ul class="nav__links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#hampers">Hampers</a></li>
+        <li><a href="#includes">What's Inside</a></li>
+        <li><a href="#contact" class="nav__cta">Order Now</a></li>
+      </ul>
+      <button class="nav__hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <!-- Mobile menu -->
+    <div class="nav__mobile" id="mobileMenu">
+      <a href="#about">About</a>
+      <a href="#hampers">Hampers</a>
+      <a href="#includes">What's Inside</a>
+      <a href="#contact">Order Now</a>
+    </div>
+  </nav>
+
+  <!-- ========== HERO ========== -->
+  <section class="hero" id="hero">
+    <div class="hero__bg-pattern"></div>
+    <div class="hero__content container">
+      <p class="hero__tag">Festive Collection 2026</p>
+      <h1 class="hero__title">
+        <em>The Art of</em><br />
+        Thoughtful Gifting
+      </h1>
+      <p class="hero__sub">Premium Coffee. Pure Serenity.</p>
+      <div class="hero__actions">
+        <a href="#hampers" class="btn btn--primary">Explore Hampers</a>
+        <a href="#contact" class="btn btn--outline">Get in Touch</a>
+      </div>
+    </div>
+    <div class="hero__diya" aria-hidden="true">🪔</div>
+    <div class="hero__scroll">
+      <span>Scroll</span>
+      <div class="hero__scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ========== ABOUT ========== -->
+  <section class="about" id="about">
+    <div class="container about__inner">
+      <div class="about__visual">
+        <div class="about__img-wrap">
+          <img src="images/tote-hamper.jpg" alt="Serene Coffees Festive Tote Hamper with coffee and diyas" class="about__img" />
+          <div class="about__badge">
+            <span>More than</span>
+            <strong>a Coffee</strong>
+            <span>it's an Experience</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="about__text">
+        <span class="section-tag">About Us</span>
+        <h2 class="section-title">More Than a Coffee,<br /><em>It's an Experience</em></h2>
+        <p>At Serene Coffees, we believe that the simplest moments can create the most beautiful memories. From the aroma of freshly brewed coffee to the joy of sharing a thoughtful gift, every little detail matters.</p>
+        <p>This Diwali, we bring together the warmth of coffee and the spirit of celebration through thoughtfully curated gifting hampers, designed to make every gesture feel special.</p>
+        <blockquote class="about__quote">
+          Gifting, Made Meaningful.
+        </blockquote>
+        <div class="about__stats">
+          <div class="about__stat">
+            <strong>100%</strong>
+            <span>Premium Beans</span>
+          </div>
+          <div class="about__stat">
+            <strong>Artisan</strong>
+            <span>Curated</span>
+          </div>
+          <div class="about__stat">
+            <strong>Bulk</strong>
+            <span>Customisation</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== DIVIDER ========== -->
+  <div class="divider container">
+    <span>🪔</span>
+    <div class="divider__line"></div>
+    <span class="divider__text">Festive Gifting Collection</span>
+    <div class="divider__line"></div>
+    <span>🪔</span>
+  </div>
+
+  <!-- ========== HAMPERS ========== -->
+  <section class="hampers" id="hampers">
+    <div class="container">
+      <span class="section-tag">Our Hampers</span>
+      <h2 class="section-title"><em>Curated with Care,</em><br />Crafted for Celebration</h2>
+      <p class="section-sub">Three beautiful ways to gift the warmth of coffee this festive season.</p>
+
+      <div class="hampers__grid">
+
+        <!-- Hamper 1 -->
+        <div class="hamper-card" data-index="01">
+          <div class="hamper-card__img-wrap">
+            <div class="hamper-card__img hamper-card__img--jute">
+              <div class="hamper-card__emoji">🛍️</div>
+              <div class="hamper-card__label">Jute Tote Hamper</div>
+            </div>
+            <div class="hamper-card__num">01</div>
+          </div>
+          <div class="hamper-card__body">
+            <h3>The Festive Tote</h3>
+            <p>A beautifully decorated jute tote bag with floral embellishments, carrying two premium coffee pouches and a Happy Diwali keepsake tag.</p>
+            <ul class="hamper-card__items">
+              <li>2 Premium Coffee Pouches</li>
+              <li>Decorative Jute Tote Bag</li>
+              <li>Diwali Gift Tag</li>
+              <li>Floral Ornament</li>
+            </ul>
+            <a href="#contact" class="btn btn--small">Enquire Now</a>
+          </div>
+        </div>
+
+        <!-- Hamper 2 -->
+        <div class="hamper-card hamper-card--featured" data-index="02">
+          <div class="hamper-card__badge">Most Popular</div>
+          <div class="hamper-card__img-wrap">
+            <div class="hamper-card__img hamper-card__img--black">
+              <div class="hamper-card__emoji">🎁</div>
+              <div class="hamper-card__label">Signature Gift Box</div>
+            </div>
+            <div class="hamper-card__num">02</div>
+          </div>
+          <div class="hamper-card__body">
+            <h3>The Signature Box</h3>
+            <p>An elegant black gift box with two Serene Coffee pouches, a pair of decorative diyas, and a Happy Diwali greeting card — the complete festive experience.</p>
+            <ul class="hamper-card__items">
+              <li>2 Premium Coffee Pouches</li>
+              <li>Set of 2 Decorative Diyas</li>
+              <li>Happy Diwali Greeting Card</li>
+              <li>Premium Black Gift Box</li>
+            </ul>
+            <a href="#contact" class="btn btn--primary btn--small">Enquire Now</a>
+          </div>
+        </div>
+
+        <!-- Hamper 3 -->
+        <div class="hamper-card" data-index="03">
+          <div class="hamper-card__img-wrap">
+            <div class="hamper-card__img hamper-card__img--gold">
+              <div class="hamper-card__emoji">✨</div>
+              <div class="hamper-card__label">Luxury Gold Hamper</div>
+            </div>
+            <div class="hamper-card__num">03</div>
+          </div>
+          <div class="hamper-card__body">
+            <h3>The Luxury Gold</h3>
+            <p>Our most indulgent offering — a gold-accented open gift box with two coffee pouches, a pair of jewelled diyas, greeting card, and a golden satin ribbon.</p>
+            <ul class="hamper-card__items">
+              <li>2 Premium Coffee Pouches</li>
+              <li>Jewelled Decorative Diyas</li>
+              <li>Happy Diwali Greeting Card</li>
+              <li>Gold Ribbon Festive Box</li>
+            </ul>
+            <a href="#contact" class="btn btn--small">Enquire Now</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== WHAT'S INSIDE ========== -->
+  <section class="includes" id="includes">
+    <div class="includes__bg"></div>
+    <div class="container includes__inner">
+      <div class="includes__text">
+        <span class="section-tag section-tag--light">What's Inside</span>
+        <h2 class="section-title section-title--light">Every Hamper<br /><em>Includes</em></h2>
+        <p class="includes__desc">Each gift has been thoughtfully assembled so the recipient feels the warmth of the season in every detail.</p>
+        <a href="#contact" class="btn btn--outline-light">Order Your Hamper</a>
+      </div>
+      <div class="includes__items">
+        <div class="include-item">
+          <div class="include-item__icon">☕</div>
+          <div class="include-item__body">
+            <h4>2 Premium Coffee Pouches</h4>
+            <p>Serene Coffees' signature 100% premium arabica blend — balanced, aromatic, satisfying.</p>
+          </div>
+        </div>
+        <div class="include-item">
+          <div class="include-item__icon">🪔</div>
+          <div class="include-item__body">
+            <h4>1 Set of 2 Decorative Diyas</h4>
+            <p>Handcrafted ceramic diyas with intricate patterns to light up the festive home.</p>
+          </div>
+        </div>
+        <div class="include-item">
+          <div class="include-item__icon">💌</div>
+          <div class="include-item__body">
+            <h4>Happy Diwali Greeting Card</h4>
+            <p>A beautifully designed card to carry your warm wishes to your loved ones.</p>
+          </div>
+        </div>
+        <div class="include-item">
+          <div class="include-item__icon">📦</div>
+          <div class="include-item__body">
+            <h4>Premium Festive Gift Box</h4>
+            <p>Elegant, sturdy packaging that makes the gift presentation as special as its contents.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== BULK GIFTING BANNER ========== -->
+  <section class="bulk">
+    <div class="container bulk__inner">
+      <div class="bulk__text">
+        <h2>Gifting at Scale?<br /><em>We've got you covered.</em></h2>
+        <p>Customisation available for bulk corporate and personal gifting. Special pricing and branding options on request.</p>
+      </div>
+      <a href="#contact" class="btn btn--primary btn--large">Get a Quote</a>
+    </div>
+  </section>
+
+  <!-- ========== CONTACT ========== -->
+  <section class="contact" id="contact">
+    <div class="container contact__inner">
+      <div class="contact__left">
+        <span class="section-tag">Get in Touch</span>
+        <h2 class="section-title">Let's Create<br /><em>Something Special</em></h2>
+        <p>Reach out to us and we'll put together the perfect festive hamper for your loved ones or your team.</p>
+
+        <div class="contact__details">
+          <a href="tel:9424519707" class="contact__item">
+            <div class="contact__icon">📞</div>
+            <div>
+              <strong>Phone / WhatsApp</strong>
+              <span>9424519707</span>
+              <span>6263474278</span>
+            </div>
+          </a>
+          <a href="mailto:serenecoffees@gmail.com" class="contact__item">
+            <div class="contact__icon">✉️</div>
+            <div>
+              <strong>Email</strong>
+              <span>serenecoffees@gmail.com</span>
+            </div>
+          </a>
+          <a href="https://instagram.com/serenecoffees" target="_blank" rel="noopener" class="contact__item">
+            <div class="contact__icon">📸</div>
+            <div>
+              <strong>Instagram</strong>
+              <span>@serenecoffees</span>
+            </div>
+          </a>
+          <div class="contact__item">
+            <div class="contact__icon">📍</div>
+            <div>
+              <strong>Location</strong>
+              <span>Indore, India</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="contact__right">
+        <form class="contact__form" id="contactForm">
+          <h3>Send an Enquiry</h3>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="name">Your Name</label>
+              <input type="text" id="name" placeholder="e.g. Priya Sharma" required />
+            </div>
+            <div class="form-group">
+              <label for="phone">Phone / WhatsApp</label>
+              <input type="tel" id="phone" placeholder="e.g. 9876543210" required />
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="you@example.com" />
+          </div>
+          <div class="form-group">
+            <label for="hamperType">Hamper Type</label>
+            <select id="hamperType">
+              <option value="">Select a hamper...</option>
+              <option>The Festive Tote</option>
+              <option>The Signature Box</option>
+              <option>The Luxury Gold</option>
+              <option>Bulk / Corporate (Custom)</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="qty">Quantity</label>
+            <input type="number" id="qty" placeholder="e.g. 10" min="1" />
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" rows="4" placeholder="Tell us about your gifting needs..."></textarea>
+          </div>
+          <button type="submit" class="btn btn--primary btn--full">Send Enquiry →</button>
+          <p class="form-note">We'll get back to you within 24 hours.</p>
+        </form>
+        <div class="contact__form-success" id="formSuccess" hidden>
+          <div class="success-icon">🪔</div>
+          <h3>Thank you!</h3>
+          <p>Your enquiry has been received. We'll be in touch soon to create something special for you.</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <p class="footer__logo">SERENE COFFEES</p>
+        <p class="footer__tagline">Good Coffee, Brighter Moments.</p>
+      </div>
+      <div class="footer__links">
+        <a href="#about">About</a>
+        <a href="#hampers">Hampers</a>
+        <a href="#includes">What's Inside</a>
+        <a href="#contact">Contact</a>
+        <a href="https://instagram.com/serenecoffees" target="_blank" rel="noopener">Instagram</a>
+      </div>
+      <p class="footer__copy">© 2026 Serene Coffees · Premium Coffee. Pure Serenity. · Indore, India</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
